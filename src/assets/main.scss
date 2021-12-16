@@ -1,0 +1,79 @@
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-actions {
+  display: flex;
+  margin: 20px 0 10px 0;
+}
+
+.field {
+  padding-bottom: 22px;
+  position: relative;
+
+  .error {
+    position: absolute;
+    bottom: 5px;
+    font-size: 14px;
+  }
+}
+
+.btn {
+  cursor: pointer;
+
+  &[disabled="disabled"] {
+    opacity: 0.5;
+  }
+}
+
+.btn-text {
+  background: none;
+  border: none;
+}
+
+.btn-filled {
+  background-color: #4CAF50;
+  color: white;
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+
+  &:hover {
+    background-color: #45a049;
+  }
+}
+
+.btn-outline {
+  background: none;
+  color:  #45a049;
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid  #45a049;
+  border-radius: 3px;
+
+  &:hover {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+}
+
+input {
+  margin: 0;
+  padding: 10px 5px;
+  border-radius: 3px;
+  border: 1px solid #aaa5a5;
+}
+
+.error {
+  color: red;
+}
+
+.checkbox-title {
+  margin: 0 0 0 5px;
+}
+
+p {
+  margin: 0;
+}
