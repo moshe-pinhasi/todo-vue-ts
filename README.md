@@ -13,7 +13,7 @@ https://medium.com/js-dojo/adding-typescript-to-your-existing-vuejs-2-6-app-aaa8
 ## When to use interfaces, models and types
 https://stackoverflow.com/questions/37652801/when-to-use-interface-and-model-in-typescript-angular
 
-## tldr;
+## tl;dr
 A class defines the blueprints of an object. They express the logic, methods, and properties these objects will inherit.
 
 
